@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ * code by rose
  * Return: Always 0
  */
 int main(void)
