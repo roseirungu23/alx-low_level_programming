@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S masm=intel export CFILE=main.c
+export CFILE=0-main.c && gcc -S -masm=intel -o 0-main.s 0-main.c && cat 0-main.s
