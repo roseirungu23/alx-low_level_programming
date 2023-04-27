@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_diagnal - draws diagonal lines in the terminal
- * @n; number of times the lines are drawn
+ * print_diagonal - draws diagonal lines in the terminal
+ * @n: the number of times the lines are drawn
  * Return: empty
  */
 
