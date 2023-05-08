@@ -25,5 +25,5 @@ unsigned int _strspn(char *a, char *b)
 				return (bytes);
 	}
 	a++;
-	return (0);
+	return ('\0');
 }
