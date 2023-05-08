@@ -16,7 +16,7 @@ char *_strpbrk(char *a, char *b)
 	{
 		for (i = 0; b[i]; i++)
 		{
-			if (*s == b[i])
+			if (*a == b[i])
 				return (a);
 		}
 		a++;
