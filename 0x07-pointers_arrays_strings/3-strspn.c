@@ -16,7 +16,7 @@ unsigned int _strspn(char *a, char *b)
 	while (*a)
 	{
 		for (i = 0; b[i]; i++)
-			if (*a == accept[i])
+			if (*a == b[i])
 			{
 				bytes++;
 				break;
@@ -25,4 +25,5 @@ unsigned int _strspn(char *a, char *b)
 				return (bytes);
 	}
 	a++;
+	return (0);
 }
