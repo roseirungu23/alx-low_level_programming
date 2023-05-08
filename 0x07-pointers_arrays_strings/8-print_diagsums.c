@@ -20,7 +20,7 @@ void print_diagsums(int *a, int s)
 	for (i = 0; i < s; i++)
 	{
 		sum2 += a[i];
-		a -= size;
+		a -= s;
 	}
 	printf("%d, %d\n", sum1, sum2);
 }
