@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -17,12 +17,12 @@ int main(int argc, char *argv[])
 	unsigned int k, sum = 0;
 	char *e;
 
-	if argc > 1
+	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
 			e = argv[i];
-		for (k = 0; k < string; k++)
+		for (k = 0; k < strlen(e); k++)
 		{
 			if (e[k] < 48 || e[k] > 57)
 			{
