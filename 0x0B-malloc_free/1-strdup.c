@@ -4,13 +4,13 @@
 /**
  * _strdup - duplicate a string
  * @str: string to be duplicated
- * 
+ *
  * Return: duplicated string
  */
 
 char *_strdup(char *str)
 {
-	int a = 0, i =1;
+	int a = 0, i = 1;
 	char *s;
 
 	if (str == NULL)
@@ -19,7 +19,6 @@ char *_strdup(char *str)
 	{
 		i++;
 	}
-	
 	s = malloc((sizeof(char) * i) + 1);
 
 	if (s == NULL)
