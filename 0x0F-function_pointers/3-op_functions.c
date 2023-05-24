@@ -56,7 +56,6 @@ int op_div(int a, int b)
 		printf("ERROR\n");
 		exit(100);
 	}
-	
 	return (a / b);
 
 }
