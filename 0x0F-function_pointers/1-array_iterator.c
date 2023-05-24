@@ -9,7 +9,7 @@
  * Retrn: 0
  */
 
-void array_iterator(int *array, size_t size, void (*action)(init))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i = 0;
 
