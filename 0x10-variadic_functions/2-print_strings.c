@@ -1,4 +1,4 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -7,7 +7,9 @@
  * @separator: string to print
  * @n: number of strings to print
  * @...: variable number of string to print
- *
+ * 
+ * description: if separator is NULL, its not printed
+ * if one of the strings is NULL, (nil) is printed
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
