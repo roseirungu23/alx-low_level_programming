@@ -7,7 +7,6 @@
  * @separator: string to print
  * @n: number of strings to print
  * @...: variable number of string to print
- * 
  * description: if separator is NULL, its not printed
  * if one of the strings is NULL, (nil) is printed
  */
