@@ -12,7 +12,7 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int i, count = 0;
+	int i, sum = 0;
 	unsigned long int new;
 	unsigned long int old = n ^ m;
 
@@ -20,7 +20,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	{
 		new = old >> i;
 		if (new & 1)
-			count++;
+			sum++;
 	}
-	return (count);
+	return (sum);
 }
