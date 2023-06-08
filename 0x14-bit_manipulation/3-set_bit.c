@@ -4,6 +4,7 @@
 /**
  * set_bit - sets the value of a bit to 1 at a given index
  * @index: index of the bit you want to set to 1
+ * @n: pointer to changed number
  *
  * Return: 1 if it works, or -1 if fails
  */
