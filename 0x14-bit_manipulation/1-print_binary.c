@@ -15,14 +15,14 @@ void print_binary(unsigned long int n)
 	{
 		now = n >> i;
 
-		if (new & 1)
+		if (now & 1)
 		{
-			_putchar('1');
+			putchar('1');
 			count++;
 		}
 		else if (count)
-			_putchar('0');
+			putchar('0');
 	}
 	if (!count)
-		_putchar('0');
+		putchar('0');
 }
