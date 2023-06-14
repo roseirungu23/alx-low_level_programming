@@ -26,9 +26,9 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 
 	if (text_content == NULL)
-
 	{
-		for (nl = 0; text_content[nl]; nl++);
+		for (nl = 0; text_content[nl]; nl++)
+			;
 	}
 
 	rw = write(fides, text_content, nl);
