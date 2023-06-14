@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <fcntl.h>
 
 /**
  * create_file - appends text at the end of a file
@@ -10,7 +11,7 @@
  * Return: 1 if success, or -1 if fails
  */
 
-int append_text_to_file(const char *filename, char *text_content)
+int create_file(const char *filename, char *text_content)
 {
 	int fides;
 	int nl;
@@ -25,6 +26,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 
 	if (text_content == NULL)
+
 	{
 		for (nl = 0; text_content[nl]; nl++);
 	}
