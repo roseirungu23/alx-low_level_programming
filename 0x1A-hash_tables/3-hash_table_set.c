@@ -3,7 +3,7 @@
 /**
  * hash_table_set - Sets a key the value in  hash table.
  * @ht: A pointer to the hash table.
- * @key: The key to the data 
+ * @key: The key to the data
  * @value: The value of the data to store.
  *
  * Return: 1 successuful, 0 otherwise
